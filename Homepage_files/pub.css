@@ -5,7 +5,7 @@
     -moz-box-orient: vertical;
     -moz-box-direction: normal;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     -moz-box-align: center;
     align-items: center
 }
@@ -13,8 +13,8 @@
 @media only screen and (min-width:832px) {
     .personal_profile__BdQI4 {
         -moz-box-orient: horizontal;
-        -moz-box-direction: normal;
-        flex-direction: row
+        -moz-box-direction: reverse;
+        flex-direction: row-reverse
     }
 }
 
